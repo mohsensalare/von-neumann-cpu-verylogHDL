@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/HDL_Projects/von_neumann/SC.xst" -ofn "C:/HDL_Projects/von_neumann/SC.syr" 
+xst -intstyle ise -ifn "C:/HDL_Projects/von_neumann/SC.xst" -ofn "C:/HDL_Projects/von_neumann/SC.syr" 
+xst -intstyle ise -ifn "C:/HDL_Projects/von_neumann/SC.xst" -ofn "C:/HDL_Projects/von_neumann/SC.syr" 
+xst -intstyle ise -ifn "C:/HDL_Projects/von_neumann/SC.xst" -ofn "C:/HDL_Projects/von_neumann/SC.syr" 
+xst -intstyle ise -ifn "C:/HDL_Projects/von_neumann/SC.xst" -ofn "C:/HDL_Projects/von_neumann/SC.syr" 
+xst -intstyle ise -ifn "C:/HDL_Projects/von_neumann/SC.xst" -ofn "C:/HDL_Projects/von_neumann/SC.syr" 
+xst -intstyle ise -ifn "C:/HDL_Projects/von_neumann/SC.xst" -ofn "C:/HDL_Projects/von_neumann/SC.syr" 
+xst -intstyle ise -ifn "C:/HDL_Projects/von_neumann/SC.xst" -ofn "C:/HDL_Projects/von_neumann/SC.syr" 
+xst -intstyle ise -ifn "C:/HDL_Projects/von_neumann/SC.xst" -ofn "C:/HDL_Projects/von_neumann/SC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 SC.ngc SC.ngd  

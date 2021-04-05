@@ -1,0 +1,28 @@
+Command line:
+   AC_TF_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  5928
+
+Fri Oct 30 21:45:12 2020
+
+
+ Elaboration Time: 0.78125 sec
+
+ Current Memory Usage: 5171.93 Meg
+
+ Total Signals          : 19
+ Total Nets             : 48
+ Total Signal Drivers   : 10
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 14
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 163
+
+ Total Simulation Time: 1.07813 sec
+
+ Current Memory Usage: 4700.07 Meg
+
+Fri Oct 30 21:47:32 2020
+

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/HDL_Projects/von_neumann/SC_M.xst" -ofn "C:/HDL_Projects/von_neumann/SC_M.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 SC_M.ngc SC_M.ngd  

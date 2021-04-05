@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/HDL_Projects/von_neumann/PC_TF_isim_beh.exe" -prj "C:/HDL_Projects/von_neumann/PC_TF_beh.prj" "work.PC_TF" "work.glbl" 

@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/HDL_Projects/von_neumann/DR.xst" -ofn "C:/HDL_Projects/von_neumann/DR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 DR.ngc DR.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o DR_map.ncd DR.ngd DR.pcf 
+par -w -intstyle ise -ol high -t 1 DR_map.ncd DR.ncd DR.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DR.twx DR.ncd -o DR.twr DR.pcf 
+xst -intstyle ise -ifn "C:/HDL_Projects/von_neumann/DR.xst" -ofn "C:/HDL_Projects/von_neumann/DR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 DR.ngc DR.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o DR_map.ncd DR.ngd DR.pcf 
+par -w -intstyle ise -ol high -t 1 DR_map.ncd DR.ncd DR.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DR.twx DR.ncd -o DR.twr DR.pcf 

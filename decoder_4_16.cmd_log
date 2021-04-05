@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/HDL_Projects/von_neumann/decoder_4_16.xst" -ofn "C:/HDL_Projects/von_neumann/decoder_4_16.syr" 
+xst -intstyle ise -ifn "C:/HDL_Projects/von_neumann/decoder_4_16.xst" -ofn "C:/HDL_Projects/von_neumann/decoder_4_16.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 decoder_4_16.ngc decoder_4_16.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o decoder_4_16_map.ncd decoder_4_16.ngd decoder_4_16.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_4_16_map.ncd decoder_4_16.ncd decoder_4_16.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decoder_4_16.twx decoder_4_16.ncd -o decoder_4_16.twr decoder_4_16.pcf 
+xst -intstyle ise -ifn "C:/HDL_Projects/von_neumann/decoder_4_16.xst" -ofn "C:/HDL_Projects/von_neumann/decoder_4_16.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 decoder_4_16.ngc decoder_4_16.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o decoder_4_16_map.ncd decoder_4_16.ngd decoder_4_16.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_4_16_map.ncd decoder_4_16.ncd decoder_4_16.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decoder_4_16.twx decoder_4_16.ncd -o decoder_4_16.twr decoder_4_16.pcf 
+xst -intstyle ise -ifn "C:/HDL_Projects/von_neumann/decoder_4_16.xst" -ofn "C:/HDL_Projects/von_neumann/decoder_4_16.syr" 
